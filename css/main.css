@@ -437,6 +437,7 @@ opacity: 0;
   background-color: #f6f5ef;
   position: relative;
   transition: height .4s;
+  /* height가 0이되면 overflow가 생기기에 hidden 처리 */
   overflow: hidden;
 }
 .notice .promotion.hide{
